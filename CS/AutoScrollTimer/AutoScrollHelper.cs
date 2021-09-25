@@ -35,7 +35,7 @@ namespace AutoScrollTimer {
             Rectangle rect = fView.ViewRect;
             fScrollInfo.GoLeft = (pt.X > rect.Left - ThresholdOutter) && (pt.X < rect.Left + ThresholdInner);
             fScrollInfo.GoRight = (pt.X > rect.Right - ThresholdInner) && (pt.X < rect.Right + ThresholdOutter);
-            fScrollInfo.GoUp = (pt.Y < rect.Top + ThresholdInner) && (pt.Y > rect.Top - ThresholdOutter);
+            fScrollInfo.GoUp = (pt.Y < rect.Top + ThresholdOutter) && (pt.Y > rect.Top - ThresholdInner);
             fScrollInfo.GoDown = (pt.Y > rect.Bottom - ThresholdInner) && (pt.Y < rect.Bottom + ThresholdOutter);
             Console.WriteLine("{0} {1} {2} {3} {4}", pt, fScrollInfo.GoLeft, fScrollInfo.GoRight, fScrollInfo.GoUp, fScrollInfo.GoDown);
         }
