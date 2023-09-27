@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WinForms Data Grid - Auto scroll the grid during drag-and-drop
+# WinForms Data Grid - Auto-scroll the grid during drag-and-drop
 
 This example shows how to scroll the grid (rows and columns) vertically and horizontally while dragging an object near the edge of the grid.
 
