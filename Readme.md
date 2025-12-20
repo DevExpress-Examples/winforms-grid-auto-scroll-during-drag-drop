@@ -9,7 +9,7 @@
 
 This example shows how to scroll the grid (rows and columns) vertically and horizontally while dragging an object near the edge of the grid.
 
-![WinForms Data Grid - Auto scroll the grid during drag-and-drop](https://raw.githubusercontent.com/DevExpress-Examples/how-to-automatically-scroll-the-grid-during-drag-and-drop-e1475/13.1.4%2B/media/winforms-grid-auto-scroll-on-drag.gif)
+![WinForms Data Grid - Auto scroll the grid during drag-and-drop](media/winforms-grid-auto-scroll-on-drag.gif)
 
 
 ## Files to Review
@@ -28,3 +28,4 @@ This example shows how to scroll the grid (rows and columns) vertically and hori
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
